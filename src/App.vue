@@ -8,7 +8,10 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+     mounted:function(){
+        createSnow('', 10);
+      },
 }
 </script>
 
