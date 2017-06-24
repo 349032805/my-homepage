@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-  	<div>hello world!</div>
-      <transition >
+      <transition name='router-fade' mode='out-in'>
         <router-view></router-view>
       </transition>
   </div>
@@ -16,4 +15,5 @@ export default {
 <style lang="less">
 @import 'style/common';
 @import 'style/rest';
+@import 'style/app';
 </style>
