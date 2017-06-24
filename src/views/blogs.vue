@@ -52,18 +52,21 @@
               display: flex;
               a {
                 flex :1;
+                color: #666;
+
+                &.active {
+                  color: #fff!important;
+                  background: #66caf1!important;
+                }
+                &:hover {
+                  color: #fff;
+                  background: #66caf1;
+                }
               }
               li {
                 text-align: center;
                 height: 60px;
                 line-height: 60px;
-                color: #666;
-
-                &:hover {
-                  color: #fff;
-                  background: #66caf1;
-                  cursor: pointer;
-                }
               }
             }
         }
