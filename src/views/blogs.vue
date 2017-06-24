@@ -15,9 +15,11 @@
             </ul>
       </div>
 
-    <transition name="router-slid" mode="out-in">
-      <router-view></router-view>
-    </transition>
+      <div class="content">
+        <transition name="router-slid" mode="out-in">
+          <router-view></router-view>
+        </transition>
+      </div>
   </div>
 
 </template>
@@ -41,7 +43,11 @@
 	.blogs{
         width: 1200px;
         margin: 0 auto;
-
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
         .nav {
             background-color: rgba(122,193,224,.42);
             overflow: hidden;
@@ -69,6 +75,10 @@
                 line-height: 60px;
               }
             }
+        }
+
+        .content {
+
         }
       }
 </style>

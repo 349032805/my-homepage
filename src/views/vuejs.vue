@@ -1,10 +1,11 @@
 <template>
   <div>
- 	hello vuejs!
+ 	<column></column>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
+    import column from '../components/column';
      export default {
       data() {
           return {
@@ -15,7 +16,10 @@
        },
       methods: {
           
-      }  
+      } ,
+      components: {
+        column
+      }
     };
 </script>
 
