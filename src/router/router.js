@@ -11,6 +11,7 @@ import css3 from '../views/css3.vue'
 import web from '../views/web.vue'
 import about from '../views/about.vue'
 import leaveMsg from '../views/leaveMsg.vue'
+import test from '../views/test.vue'
 export default [
     {
       path: '/',
@@ -30,11 +31,6 @@ export default [
       name: "blogs",
       component: blogs,
       children : [
-        {
-          path: '',
-          name: "allBlogs",
-          component: allBlogs
-        },
         {
           path: 'allBlogs',
           name: "allBlogs",
@@ -75,16 +71,22 @@ export default [
           name: "web",
           component: web
         }, 
-        {
-          path: 'about',
-          name: "about",
-          component: about
-        }, 
+      
         {
           path: 'leaveMsg',
           name: "leaveMsg",
           component: leaveMsg
         }
       ]
-    }
+    },
+      {
+          path: 'about',
+          name: "about",
+          component: about
+      },
+     {
+          path: 'test',
+          name: "test",
+          component: test
+      },
 ];

@@ -43,7 +43,7 @@
 			f = window.innerHeight
 		} else {
 			if (g.parentElement.clientHeight) {
-				f = g.parentElement.clientHeight -100
+				f = g.parentElement.clientHeight
 			} else {
 				if (g && g.clientHeight) {
 					f = g.clientHeight
@@ -67,7 +67,7 @@
 		this.minAngle = 1.4;
 		this.maxAngle = 1.6;
 		this.angleDelta = 0.01 * Math.random();
-		this.speed = 1 + Math.random()
+		this.speed = 2 + Math.random()
 	}
 	var c = false;
 	m(function() {

@@ -2,7 +2,7 @@
   <div class="blogs">
  	<div class="nav">
             <ul>
-              <router-link to="/blogs/allBlogs"><li>全部</li></router-link>
+           <!--    <router-link to="/blogs/allBlogs"><li>全部</li></router-link>
               <router-link to="/blogs/vuejs"><li>Vuejs</li></router-link>
               <router-link to="/blogs/angularjs"><li>Angularjs</li></router-link>
               <router-link to="/blogs/react"><li>React</li></router-link>
@@ -10,8 +10,17 @@
               <router-link to="/blogs/java"><li>Java</li></router-link>
               <router-link to="/blogs/css3"><li>css3</li></router-link>
               <router-link to="/blogs/web"><li>网站</li></router-link>
-              <router-link to="/blogs/about"><li>关于我</li></router-link>
-              <router-link to="/blogs/leaveMsg"><li>留言</li></router-link>
+              <router-link to="/about"><li>关于我</li></router-link>
+              <router-link to="/blogs/leaveMsg"><li>留言</li></router-link> -->
+
+              <li>全部</li>
+              <li>Vuejs</li>
+              <li>Angularjs</li>
+              <li>React</li>
+              <li>Nodejs</li>
+              <li>Java</li>
+              <li>css3</li>
+              <li>网站</li>
             </ul>
       </div>
 
@@ -70,6 +79,8 @@
                 }
               }
               li {
+                flex: 1;
+                cursor: pointer;
                 text-align: center;
                 height: 60px;
                 line-height: 60px;

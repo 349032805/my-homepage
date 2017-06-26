@@ -88,6 +88,7 @@
 	  						height: 45px;
 	  						border-top: 1px solid #fff;
 	  						padding: 0 15px;
+	  						font-size: 14px;
 	  					}
 	  				}
 	  			}

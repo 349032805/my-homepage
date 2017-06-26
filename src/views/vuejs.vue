@@ -13,6 +13,7 @@
         },
       created() {
           console.log("---------create");
+           this.$store.commit('changeTitle','vuejs');
        },
       methods: {
           

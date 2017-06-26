@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+  	<div class="head-ban">
+  		<a href="/test" target="_blank">aaa</a>
+  	</div>
       <transition name='router-fade' mode='out-in'>
         <router-view></router-view>
       </transition>
@@ -10,7 +13,7 @@
 export default {
   name: 'app',
      mounted:function(){
-        createSnow('', 10);
+     	createSnow('',5)
       },
 }
 </script>
