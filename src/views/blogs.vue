@@ -2,24 +2,21 @@
   <div class="blogs">
  	<div class="nav">
             <ul>
-              <li @click="changeTab('all')"  :class="{'active':currentTheme == 'all'}">全部</li>
-              <li @click="changeTab('vuejs')" :class="{'active':currentTheme == 'vuejs'}">Vuejs</li>
-              <li @click="changeTab('angularjs')" :class="{'active':currentTheme == 'angularjs'}">Angularjs</li>
-              <li @click="changeTab('react')" :class="{'active':currentTheme == 'react'}">React</li>
-              <li @click="changeTab('nodejs')" :class="{'active':currentTheme == 'nodejs'}">Nodejs</li>
-              <li @click="changeTab('java')" :class="{'active':currentTheme == 'java'}">Java</li>
-              <li @click="changeTab('css3')" :class="{'active':currentTheme == 'css3'}">css3</li>
-              <li @click="changeTab('web')" :class="{'active':currentTheme == 'web'}">网站</li>
+              <waveBtn @click="changeTab('all')"  :class="{'active':currentTheme == 'all'}">全部</waveBtn>
+              <waveBtn @click="changeTab('vuejs')" :class="{'active':currentTheme == 'vuejs'}">Vuejs</waveBtn>
+              <waveBtn @click="changeTab('angularjs')" :class="{'active':currentTheme == 'angularjs'}">Angularjs</waveBtn>
+              <waveBtn @click="changeTab('react')" :class="{'active':currentTheme == 'react'}">React</waveBtn>
+              <waveBtn @click="changeTab('nodejs')" :class="{'active':currentTheme == 'nodejs'}">Nodejs</waveBtn>
+              <waveBtn @click="changeTab('java')" :class="{'active':currentTheme == 'java'}">Java</waveBtn>
+              <waveBtn @click="changeTab('css3')" :class="{'active':currentTheme == 'css3'}">css3</waveBtn>
+              <waveBtn @click="changeTab('web')" :class="{'active':currentTheme == 'web'}">网站</waveBtn>
             </ul>
       </div>
-
       <div class="content">
            <div class="column">
                 <div class="two-columns">
                 <div class="left-column part">
                   <p class="intro">
-                    欢迎来到fantasy的个人主页!
-                    欢迎来到fantasy的个人主页
                     欢迎来到fantasy的个人主页
                     欢迎来到fantasy的个人主页
                     欢迎来到fantasy的个人主页
@@ -36,7 +33,7 @@
                   <div class="list-box">
                     <div class="box">
                       <ul>
-                        <li style="border-top: none;">你好你好你好你好你好你好你好你好你好你好</li>
+                        <li style="border-top: none;" @click="gotoDetail()">你好你好你好你好你好你好你好你好你好你好</li>
                         <li>你好你好你好你好你好你好你好你好你好你好</li>
                         <li>你好你好你好你好你好你好你好你好你好你好</li>
                       </ul>
@@ -52,6 +49,7 @@
 </template>
 
 <script type="text/ecmascript-6">
+import waveBtn from '../components/waveBtn';
      export default {
       data() {
           return {
@@ -63,8 +61,16 @@
        },
       methods: {
         changeTab(theme){
+          console.log("theme:"+theme);
           this.currentTheme = theme;
-        }  
+        },
+        gotoDetail(){
+          // this.$router.push({name:'orderDetail',params:{orderId:orderId}});
+          this.$router.push({name:'blogDetail'});
+        }
+      },
+      components: {
+        waveBtn
       }
     };
 </script>

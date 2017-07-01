@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="less">
-@import 'style/common';
-@import 'style/rest';
-@import 'style/app';
+@import 'common/css/common';
+@import 'common/css/rest';
+@import 'common/css/app';
 </style>

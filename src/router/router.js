@@ -3,6 +3,7 @@ import home from '../views/home.vue'
 import blogs from '../views/blogs.vue'
 import about from '../views/about.vue'
 import leaveMsg from '../views/leaveMsg.vue'
+import blogDetail from '../views/blogDetail.vue'
 import test from '../views/test.vue'
 export default [
     {
@@ -32,5 +33,10 @@ export default [
         path: 'test',
         name: "test",
         component: test
+      },
+      {
+        path: 'blogDetail',
+        name: "blogDetail",
+        component: blogDetail
       },
 ];
