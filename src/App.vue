@@ -1,7 +1,16 @@
 <template>
   <div id="app">
   	<div class="head-ban">
-  		<a href="/test" target="_blank">aaa</a>
+  		<div class="ban-content">
+                  <ul class="clearfix">
+                     <li>
+                        <img src="./images/group2.png" class="group-icon" title="访客人数">
+                     </li>
+                       <li>
+                        <img src="./images/group2.png" class="group-icon">
+                     </li>
+                  </ul>
+            </div>
   	</div>
       <transition name='router-fade' mode='out-in'>
         <router-view></router-view>
