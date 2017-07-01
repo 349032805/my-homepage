@@ -13,7 +13,7 @@
 export default {
   name: 'app',
      mounted:function(){
-     	createSnow('',5)
+     	createSnow('',15)
       },
 }
 </script>
