@@ -5,11 +5,11 @@
               <waveBtn @click="changeTab('all')"  :class="{'active':currentTheme == 'all'}">全部</waveBtn>
               <waveBtn @click="changeTab('vuejs')" :class="{'active':currentTheme == 'vuejs'}">Vuejs</waveBtn>
               <waveBtn @click="changeTab('angularjs')" :class="{'active':currentTheme == 'angularjs'}">Angularjs</waveBtn>
-              <waveBtn @click="changeTab('react')" :class="{'active':currentTheme == 'react'}">React</waveBtn>
               <waveBtn @click="changeTab('nodejs')" :class="{'active':currentTheme == 'nodejs'}">Nodejs</waveBtn>
-              <waveBtn @click="changeTab('java')" :class="{'active':currentTheme == 'java'}">Java</waveBtn>
               <waveBtn @click="changeTab('css3')" :class="{'active':currentTheme == 'css3'}">css3</waveBtn>
+              <waveBtn @click="changeTab('java')" :class="{'active':currentTheme == 'java'}">Java</waveBtn>
               <waveBtn @click="changeTab('web')" :class="{'active':currentTheme == 'web'}">网站</waveBtn>
+              <waveBtn @click="changeTab('other')" :class="{'active':currentTheme == 'other'}">杂</waveBtn>
             </ul>
       </div>
       <div class="content">
