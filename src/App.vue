@@ -6,9 +6,7 @@
              <li>
                 <img src="./images/group2.png" class="group-icon">
                 <span>10001</span>
-                <div class="tooltip">
-                  
-                </div>
+                <div class="tooltip">访客人数</div>
              </li>
             <li>
             </li>

@@ -9,7 +9,7 @@
               <waveBtn @click="changeTab('css3')" :class="{'active':currentTheme == 'css3'}">css3</waveBtn>
               <waveBtn @click="changeTab('java')" :class="{'active':currentTheme == 'java'}">Java</waveBtn>
               <waveBtn @click="changeTab('web')" :class="{'active':currentTheme == 'web'}">网站</waveBtn>
-              <waveBtn @click="changeTab('other')" :class="{'active':currentTheme == 'other'}">杂</waveBtn>
+              <waveBtn @click="changeTab('other')" :class="{'active':currentTheme == 'other'}">生活</waveBtn>
             </ul>
       </div>
       <div class="content">
