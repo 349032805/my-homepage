@@ -80,7 +80,7 @@ import waveBtn from '../components/waveBtn';
         width: 1200px;
         margin: 0 auto;
         position: absolute;
-        top: 50px;
+        top: 40px;
         left: 0;
         right: 0;
         bottom: 0;
