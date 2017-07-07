@@ -3,13 +3,21 @@
   	<div class="head-ban">
   		<div class="ban-content">
           <ul class="clearfix">
+            <li><span style="position:relative;top:1px;">关于我</span></li>
              <li>
-                <img src="./images/group2.png" class="group-icon">
+               <div class="tooltip">
+                <img src="./images/group.png" class="group-icon">
                 <span>10001</span>
-                <div class="tooltip">访客人数</div>
+                <span class="tooltiptext">访问人数</span>
+               </div>
              </li>
-            <li>
-            </li>
+               <li>
+                <div class="tooltip">
+                  <img src="./images/browse.png" class="group-icon">
+                  <span>20001</span>
+                  <span class="tooltiptext">浏览次数</span>
+                </div>
+             </li>
           </ul>
         </div>
   	</div>
