@@ -116,7 +116,7 @@ import waveBtn from '../components/waveBtn';
         .column {
             position: absolute;
             top: 100px;
-            bottom: 20px;
+            bottom: 40px;
             .two-columns {
               height: 100%;
               .part {

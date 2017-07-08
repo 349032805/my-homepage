@@ -24,6 +24,8 @@
       <transition name='router-fade' mode='out-in'>
         <router-view></router-view>
       </transition>
+
+      <div class="thank">Express by Vue2.0  Nodejs(koa)</div>
   </div>
 </template>
 
