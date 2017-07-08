@@ -157,6 +157,7 @@ import waveBtn from '../components/waveBtn';
                           font-size: 16px;
                           transition: .3s;
                           -webkit-transition: .3s;
+                          cursor: pointer;
                            &:hover {
                             color: #fff;
                             background: #66caf1;
