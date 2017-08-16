@@ -29,25 +29,8 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: "http://restapi.amap.com",
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': ''
-        }
-      },
-      '/fastfood': {
-        target: "http://10.10.1.5:9086",
-        changeOrigin: true,
-        pathRewrite: {
-          '^/fastfood': 'fastfood'
-        }
-      },
-      '/alipy': {
-        target: "http://10.10.1.5:8088",
-        changeOrigin: true,
-        pathRewrite: {
-          '^/alipy': ''
-        }
+        target: 'http://localhost:8080',
+        changeOrigin: true
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
