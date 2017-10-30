@@ -4,4 +4,4 @@ npm install
 
 npm run dev
 
-homepage-template
+my-homepage
